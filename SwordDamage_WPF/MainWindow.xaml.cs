@@ -20,9 +20,36 @@ namespace SwordDamage_WPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        Random random = new Random();
+        SwordDamage swordDamage = new SwordDamage();
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Flaming_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Magic_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Flaming_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Magic_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
